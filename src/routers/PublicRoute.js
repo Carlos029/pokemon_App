@@ -11,6 +11,5 @@ export const PublicRoute = ({children}) => { //llama a la clases hijas
     return user.logged
         ? <Navigate to="/1stGen" />
         : children
-        // si esta logeado vaya a /marvel, sino vaya al componente hijo
 }
 

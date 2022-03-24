@@ -1,4 +1,3 @@
-import React from "react";
 import {
   BrowserRouter as Router,
   Route,
@@ -9,9 +8,7 @@ import { DashboardRoutes } from "./DashboardRoutes";
 import { PrivateRoute } from "./PrivateRoute";
 import { PublicRoute } from "./PublicRoute";
 
-export const AppRouter = () => {   //login tiene un estilo (con el navbar) y los que estan dentro de DashBoardRoutes tienen otros
-
-
+export const AppRouter = () => {   
 
   return (
 

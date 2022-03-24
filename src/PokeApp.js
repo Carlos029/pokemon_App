@@ -21,11 +21,11 @@ export const PokeApp = () => {
     return (
         
 
-            <AuthContext.Provider value={{ user, dispatch }}> {/* AuthContext es para hacer cotrol de usuarios, para que si alguien aun no ha hecho login, no pueda ir a otro url de la pagina, aparete de la pagina de login */}
+            <AuthContext.Provider value={{ user, dispatch }}> {/* AuthContext para hacer control de usuarios, para que si alguien aun no ha hecho login, no pueda ir a otro url de la pagina, aparete de la pagina de login */}
 
                 <AppRouter />
 
-            </AuthContext.Provider> //.Provaider es para compartir la info de value en todos los hijos de AppRouter y demas que esten entre estos elementos <></>*/}
+            </AuthContext.Provider>
 
         
     )
